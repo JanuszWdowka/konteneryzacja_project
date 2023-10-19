@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2023-10-19T17:00:08.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="_GEwbUPzm-nRsUZXekQx" version="22.0.2" type="device">
+  <diagram name="Strona-1" id="Y5AXFylp3FzONYlo2MRp">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png;" vertex="1" parent="1">
+          <mxGeometry x="660" y="348.8" width="149" height="200.4" as="geometry" />
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="359" y="348.8" width="108.24" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="20" y="361.55" width="201.03" height="174.9" as="geometry" />
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PW5oBP3VPhZ5D6psTagP-3" target="PW5oBP3VPhZ5D6psTagP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PW5oBP3VPhZ5D6psTagP-2" target="PW5oBP3VPhZ5D6psTagP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="231" y="459" as="sourcePoint" />
+            <mxPoint x="369" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Frontend&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99.99999999999999" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-7" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Backend&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="383.12" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-8" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Database&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="704.5" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PW5oBP3VPhZ5D6psTagP-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pluralsight2.imgix.net/paths/images/corespring-f9a00f4516.png;" vertex="1" parent="1">
+          <mxGeometry x="315.62" y="500" width="195" height="195" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
