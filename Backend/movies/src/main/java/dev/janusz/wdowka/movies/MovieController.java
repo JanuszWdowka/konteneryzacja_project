@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Api Controller
+ * Api Controller obiektu Movie
  */
 @RestController
 @RequestMapping("/api/movies")
