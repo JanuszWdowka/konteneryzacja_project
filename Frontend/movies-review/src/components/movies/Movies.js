@@ -1,9 +1,9 @@
 import React from 'react';
-import './Movie.css';
+import './Movies.css';
 import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
 
-const Movie = ({ movies }) => {
+const Movies = ({ movies }) => {
     return (
         <div className='movie-carousel-container'>
             <Carousel>
@@ -32,4 +32,4 @@ const Movie = ({ movies }) => {
     )
 }
 
-export default Movie
+export default Movies

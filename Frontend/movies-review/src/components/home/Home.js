@@ -1,9 +1,9 @@
 import React from 'react';
-import Movie from '../movie/Movie';
+import Movies from '../movies/Movies';
 
 const Home = ({ movies }) => {
     return (
-        <Movie movies={movies} />
+        <Movies movies={movies} />
     )
 }
 
