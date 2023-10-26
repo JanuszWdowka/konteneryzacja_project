@@ -50,7 +50,6 @@ public class MovieService {
             String poster,
             List<String> backdrops
             ) {
-        System.out.println("test2");
         return movieRepository.insert(new Movie(imdbId, title, releaseDate, trailerLink, genres, poster, backdrops));
     }
 }

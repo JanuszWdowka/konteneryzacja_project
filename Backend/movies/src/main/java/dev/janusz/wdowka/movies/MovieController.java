@@ -60,8 +60,6 @@ public class MovieController {
      */
     @PostMapping("addMovie")
     public ResponseEntity<Movie> createMovie(@RequestBody Map<String, Object> payload) throws JsonProcessingException {
-        System.out.println("test0");
-        System.out.println("test1");
         List<String> genresList = convertToListOfStrings(payload.get("genres"));
         List<String> backdropsList = convertToListOfStrings(payload.get("backdrops"));
         return new ResponseEntity<Movie>(
