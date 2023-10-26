@@ -40,4 +40,17 @@ public class MovieService {
     public Optional<Movie> oneMovieByImdbId(String imdbId) {
         return movieRepository.findMovieByImdbId(imdbId);
     }
+
+    public Movie createMovie(
+            String imdbId,
+            String title,
+            String releaseDate,
+            String trailerLink,
+            List<String> genres,
+            String poster,
+            List<String> backdrops
+            ) {
+        System.out.println("test2");
+        return movieRepository.insert(new Movie(imdbId, title, releaseDate, trailerLink, genres, poster, backdrops));
+    }
 }

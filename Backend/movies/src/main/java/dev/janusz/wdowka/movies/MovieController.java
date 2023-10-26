@@ -1,12 +1,17 @@
 package dev.janusz.wdowka.movies;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.type.TypeReference;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /**
@@ -46,5 +51,49 @@ public class MovieController {
     @GetMapping("getByImdbId/{imdbId}")
     public ResponseEntity<Optional<Movie>> getMovieByImdbId(@PathVariable String imdbId) {
         return new ResponseEntity<Optional<Movie>>(movieService.oneMovieByImdbId(imdbId), HttpStatus.OK);
+    }
+
+    /**
+     * Tworzy film w bazie danych
+     * @param payload ciało tranzakcji
+     * @return json z danymi
+     */
+    @PostMapping("addMovie")
+    public ResponseEntity<Movie> createMovie(@RequestBody Map<String, Object> payload) throws JsonProcessingException {
+        System.out.println("test0");
+        System.out.println("test1");
+        List<String> genresList = convertToListOfStrings(payload.get("genres"));
+        List<String> backdropsList = convertToListOfStrings(payload.get("backdrops"));
+        return new ResponseEntity<Movie>(
+                movieService.createMovie(
+                        payload.get("imdbId").toString(),
+                        payload.get("title").toString(),
+                        payload.get("releaseDate").toString(),
+                        payload.get("trailerLink").toString(),
+                        genresList,
+                        payload.get("poster").toString(),
+                        backdropsList
+                ),
+                HttpStatus.CREATED
+        );
+    }
+
+    /**
+     * Funkcja do konwersji na listę Stringów listy z jsona z frontu
+     * @param value prowadzona wartość z JSONa
+     * @return Lista Stringów
+     */
+    private List<String> convertToListOfStrings(Object value) {
+        List<String> result = new ArrayList<>();
+        if (value instanceof List) {
+            for (Object item : (List<?>) value) {
+                if (item != null) {
+                    result.add(item.toString());
+                }
+            }
+        } else if (value != null) {
+            result.add(value.toString());
+        }
+        return result;
     }
 }
