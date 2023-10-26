@@ -41,6 +41,17 @@ public class MovieService {
         return movieRepository.findMovieByImdbId(imdbId);
     }
 
+    /**
+     * Funkcja dodająca film do bazy danych
+     * @param imdbId IMDBID filmu
+     * @param title Tytuł filmu
+     * @param releaseDate Data premiery filmu
+     * @param trailerLink link do trailera filmu
+     * @param genres gatunek filmu
+     * @param poster plakat filmu
+     * @param backdrops zdjęcia filmu
+     * @return
+     */
     public Movie createMovie(
             String imdbId,
             String title,
