@@ -24,6 +24,7 @@ public class TmbdApiController {
      */
     @GetMapping("getByName/{name}")
     public ResponseEntity<String> getMovieByName(@PathVariable String name) throws IOException, InterruptedException {
+        name = name.replaceAll(" ", "%20");
         return new ResponseEntity<String>(tmbdApiService.getMovieByName(name), HttpStatus.OK);
     }
 

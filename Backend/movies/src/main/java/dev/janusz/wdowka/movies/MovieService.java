@@ -41,6 +41,10 @@ public class MovieService {
         return movieRepository.findMovieByImdbId(imdbId);
     }
 
+    public Optional<Movie> oneMovieByTitle(String title) {
+        return movieRepository.findMovieByTitle(title);
+    }
+
     /**
      * Funkcja dodająca film do bazy danych
      * @param imdbId IMDBID filmu
@@ -50,7 +54,7 @@ public class MovieService {
      * @param genres gatunek filmu
      * @param poster plakat filmu
      * @param backdrops zdjęcia filmu
-     * @return
+     * @return nowy stworzonu film
      */
     public Movie createMovie(
             String imdbId,

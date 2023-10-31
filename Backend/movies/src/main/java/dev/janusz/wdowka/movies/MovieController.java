@@ -1,8 +1,6 @@
 package dev.janusz.wdowka.movies;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.core.type.TypeReference;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -51,6 +49,11 @@ public class MovieController {
     @GetMapping("getByImdbId/{imdbId}")
     public ResponseEntity<Optional<Movie>> getMovieByImdbId(@PathVariable String imdbId) {
         return new ResponseEntity<Optional<Movie>>(movieService.oneMovieByImdbId(imdbId), HttpStatus.OK);
+    }
+
+    @GetMapping("getByTitle/{title}")
+    public ResponseEntity<Optional<Movie>> getMovieByTitle(@PathVariable String title) {
+        return new ResponseEntity<Optional<Movie>>(movieService.oneMovieByTitle(title), HttpStatus.OK);
     }
 
     /**
