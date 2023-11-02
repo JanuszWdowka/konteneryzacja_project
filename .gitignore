@@ -2,3 +2,5 @@
 mongo_db.tar
 Backend/movies/src/main/resources/.env
 Backend/movies/src/main/java/dev/janusz/wdowka/movies/TmbdStatic.java
+movies_backend.tar
+movies_frontend.tar

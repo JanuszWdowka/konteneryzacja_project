@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "6536c87cddf5747e78fb8ad6"
+  },
+  "body": "It's 10/10 in my opinion.",
+  "_class": "dev.janusz.wdowka.movies.Review"
+},
+{
+  "_id": {
+    "$oid": "65380f0a5dc3a3621a7ab1e5"
+  },
+  "body": "Waste of time.",
+  "_class": "dev.janusz.wdowka.movies.Review"
+},
+{
+  "_id": {
+    "$oid": "653c1831745f1d190a51cdc0"
+  },
+  "body": "test",
+  "_class": "dev.janusz.wdowka.movies.Review"
+},
+{
+  "_id": {
+    "$oid": "653c1e617c7a084e0b326a27"
+  },
+  "body": "THE BEST!!!",
+  "_class": "dev.janusz.wdowka.movies.Review"
+},
+{
+  "_id": {
+    "$oid": "6541618eeb54a6038f0adb04"
+  },
+  "body": "test",
+  "_class": "dev.janusz.wdowka.movies.Review"
+}]
