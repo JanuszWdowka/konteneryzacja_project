@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "4896e1b2-686d-4ea3-b023-e80c61c19206",
+		"name": "movies-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30666630"
+	},
+	"item": [
+		{
+			"name": "get all movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get movie by IMDB ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/movies/getByImdbId/tt1630029",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movies",
+						"getByImdbId",
+						"tt1630029"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get movie by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/movies/getById/6531517d00719c1a09d7a739",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movies",
+						"getById",
+						"6531517d00719c1a09d7a739"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get movie by title",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/movies/getByTitle/Black Adam",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movies",
+						"getByTitle",
+						"Black Adam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create new review",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reviewBody\": \"Waste of time.\",\r\n    \"imdbId\": \"tt6443346\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/reviews",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API get movie by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/api/getByName/Forrest%20Gump",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"api",
+						"getByName",
+						"Forrest%20Gump"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API get movie by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/api/getById/13",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"api",
+						"getById",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API get Movies Images by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/api/getImagesById/13",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"api",
+						"getImagesById",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API get Movies Videos by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/api/getVideosById/13",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"api",
+						"getVideosById",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imdbId\": \"tt3915174\",\r\n    \"title\": \"Puss in Boots: The Last Wish 21321\",\r\n    \"releaseDate\": \"2022-12-21\",\r\n    \"trailerLink\": \"https://www.youtube.com/watch?v=tHb7WlgyaUc\",\r\n    \"genres\": [\r\n        \"Animation\",\r\n        \"Action\",\r\n        \"Adventure\",\r\n        \"Comedy\",\r\n        \"Family\"\r\n    ],\r\n    \"poster\": \"https://image.tmdb.org/t/p/w500/1NqwE6LP9IEdOZ57NCT51ftHtWT.jpg\",\r\n    \"backdrops\": [\r\n        \"https://image.tmdb.org/t/p/original/r9PkFnRUIthgBp2JZZzD380MWZy.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/faXT8V80JRhnArTAeYXz0Eutpv9.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/pdrlEaknhta2wvE2dcD8XDEbAI4.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/tGwO4xcBjhXC0p5qlkw37TrH6S6.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/cP8YNG3XUeBmO8Jk7Skzq3vwHy1.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/qLE8yuieTDN93WNJRmFSAEJChOg.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/vNuHqmOJRQXY0PBd887DklSDlBP.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/uUCc62M0I3lpZy0SiydbBmUIpNi.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/2wPJIFrBhzzAP8oHDOlShMkERH6.jpg\",\r\n        \"https://image.tmdb.org/t/p/original/fnfirCEDIkxZnQEtEMMSgllm0KZ.jpg\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/movies/addMovie",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movies",
+						"addMovie"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
