@@ -1,0 +1,62 @@
+<mxfile host="Electron" modified="2023-11-20T19:54:44.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="gtfTNCCtKps6FkHCWdGL" version="22.1.2" type="device">
+  <diagram name="Strona-1" id="lkbqUNNwg_Vpr7YtxYxH">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-1" target="VqsJJH5gcEqdaDq9P-kH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-1" value="4.1 &lt;br&gt;Pobranie danych o filmie" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-2" target="VqsJJH5gcEqdaDq9P-kH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-2" target="VqsJJH5gcEqdaDq9P-kH-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-2" target="VqsJJH5gcEqdaDq9P-kH-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-2" value="Klient" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-3" value="recenzja" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="425" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-4" value="film" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-7" target="VqsJJH5gcEqdaDq9P-kH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-7" value="4.2 &lt;br&gt;Pobranie danych o recenzjach" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-10" target="VqsJJH5gcEqdaDq9P-kH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="550" />
+              <mxPoint x="740" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VqsJJH5gcEqdaDq9P-kH-10" target="VqsJJH5gcEqdaDq9P-kH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqsJJH5gcEqdaDq9P-kH-10" value="4.3&lt;br&gt;Wyświetlenie danych o filmie i recenzji" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
