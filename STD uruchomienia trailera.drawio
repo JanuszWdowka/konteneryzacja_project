@@ -1,0 +1,54 @@
+<mxfile host="Electron" modified="2023-11-20T15:23:30.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="WGGDNxu_G4atvV_rNby0" version="22.1.2" type="device">
+  <diagram name="Strona-1" id="wXzStEz_zrOZvklBVlPh">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiVkr3rZL92T2Ie2J7zs-1" target="WiVkr3rZL92T2Ie2J7zs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-2" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiVkr3rZL92T2Ie2J7zs-9" target="WiVkr3rZL92T2Ie2J7zs-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="120" />
+              <mxPoint x="585" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiVkr3rZL92T2Ie2J7zs-9" target="WiVkr3rZL92T2Ie2J7zs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-9" value="Otworzenie aplikacji" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-12" value="Błąd połaczenia z aplikacją backendową" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiVkr3rZL92T2Ie2J7zs-13" target="WiVkr3rZL92T2Ie2J7zs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-13" value="Wybór filmu i włączenie play" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-15" value="Pobranie i wyświetlenie filmów z bazy danych" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiVkr3rZL92T2Ie2J7zs-16" target="WiVkr3rZL92T2Ie2J7zs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-16" value="Zakończenie oglądania trailera" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiVkr3rZL92T2Ie2J7zs-18" value="Przekierowanie na stronę z trailerem wewnątrz apliakcji" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
